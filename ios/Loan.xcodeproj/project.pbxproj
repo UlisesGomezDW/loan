@@ -12,8 +12,13 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		37A7A74AF3DC4A42BC4BA3E9 /* barlow-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D05A27318164611B3B0253A /* barlow-bold.ttf */; };
+		6D8E8CA06EB6494498C878F6 /* barlow-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DFA896F115F4F2DAE2D52F1 /* barlow-medium.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-Loan-LoanTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Loan-LoanTests.a */; };
+		7E008B1867D448D19EAD1495 /* barlow-m-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70329FDBD45A4B0384B4B011 /* barlow-m-bold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8988ED7E9BD44609B07F571A /* barlow-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2AE771243074F2CB1FB20EC /* barlow-regular.ttf */; };
+		A810B6854B984738A6D1BA91 /* barlow-xl-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 792AAC8505F242A0A12048F8 /* barlow-xl-bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +43,17 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Loan/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Loan-LoanTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Loan-LoanTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-Loan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loan.debug.xcconfig"; path = "Target Support Files/Pods-Loan/Pods-Loan.debug.xcconfig"; sourceTree = "<group>"; };
+		4DFA896F115F4F2DAE2D52F1 /* barlow-medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "barlow-medium.ttf"; path = "../src/assets/fonts/barlow-medium.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Loan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loan.release.xcconfig"; path = "Target Support Files/Pods-Loan/Pods-Loan.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Loan-LoanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loan-LoanTests.debug.xcconfig"; path = "Target Support Files/Pods-Loan-LoanTests/Pods-Loan-LoanTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Loan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Loan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70329FDBD45A4B0384B4B011 /* barlow-m-bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "barlow-m-bold.ttf"; path = "../src/assets/fonts/barlow-m-bold.ttf"; sourceTree = "<group>"; };
+		792AAC8505F242A0A12048F8 /* barlow-xl-bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "barlow-xl-bold.ttf"; path = "../src/assets/fonts/barlow-xl-bold.ttf"; sourceTree = "<group>"; };
+		7D05A27318164611B3B0253A /* barlow-bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "barlow-bold.ttf"; path = "../src/assets/fonts/barlow-bold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Loan/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Loan-LoanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loan-LoanTests.release.xcconfig"; path = "Target Support Files/Pods-Loan-LoanTests/Pods-Loan-LoanTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F2AE771243074F2CB1FB20EC /* barlow-regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "barlow-regular.ttf"; path = "../src/assets/fonts/barlow-regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3A2E7197EC0D4F698B9B320D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D05A27318164611B3B0253A /* barlow-bold.ttf */,
+				70329FDBD45A4B0384B4B011 /* barlow-m-bold.ttf */,
+				4DFA896F115F4F2DAE2D52F1 /* barlow-medium.ttf */,
+				F2AE771243074F2CB1FB20EC /* barlow-regular.ttf */,
+				792AAC8505F242A0A12048F8 /* barlow-xl-bold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +145,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				3A2E7197EC0D4F698B9B320D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -244,6 +268,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				37A7A74AF3DC4A42BC4BA3E9 /* barlow-bold.ttf in Resources */,
+				7E008B1867D448D19EAD1495 /* barlow-m-bold.ttf in Resources */,
+				6D8E8CA06EB6494498C878F6 /* barlow-medium.ttf in Resources */,
+				8988ED7E9BD44609B07F571A /* barlow-regular.ttf in Resources */,
+				A810B6854B984738A6D1BA91 /* barlow-xl-bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
