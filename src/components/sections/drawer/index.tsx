@@ -8,25 +8,39 @@ import { sliceString } from "../../../utils/string"
 import { Title } from "../../common/typography"
 import { styled } from "./index.styled"
 
+const routes = [
+    { name: "Visitas", path: "" },
+    { name: "Préstamos", path: "" },
+    { name: "Clientes", path: "" },
+    { name: "Historial", path: "" },
+    { name: "Configuración", path: "" },
+]
+
 function Drawer() {
     return (
         <SafeAreaView style={styled.container}>
             <View style={styled.head}>
-                <Title color="white">{`${sliceString(days[CURRENT_DAY], 0, 3)}. ${CURRENT_DATE_DAY} ${sliceString(
-                    months[CURRENT_MONTH],
+                <Title size={28} color={WHITE} style={styled.margin}>{`${sliceString(
+                    days[CURRENT_DAY],
                     0,
                     3
-                )}`}</Title>
-                <Icon height={30} width={30} />
+                )}. ${CURRENT_DATE_DAY} ${sliceString(months[CURRENT_MONTH], 0, 3)}`}</Title>
+                <Icon height={75} width={75} style={styled.margin} />
+                <Title size={28} color={WHITE}>
+                    {"Hola"}
+                </Title>
             </View>
-            <DrawerItem
-                label="Clientes"
-                activeBackgroundColor={SECONDARY}
-                inactiveBackgroundColor={PRIMARY}
-                onPress={() => console.log("hola")}
-                style={{ width: "100%" }}
-                labelStyle={{ color: WHITE }}
-            />
+            {routes?.map(({ name = "" }, index) => (
+                <DrawerItem
+                    key={index}
+                    label={name}
+                    activeBackgroundColor={SECONDARY}
+                    inactiveBackgroundColor={PRIMARY}
+                    onPress={() => console.log("hola")}
+                    style={styled.item}
+                    labelStyle={styled.itemLabel}
+                />
+            ))}
         </SafeAreaView>
     )
 }

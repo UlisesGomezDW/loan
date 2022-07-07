@@ -5,7 +5,10 @@ import { styled } from "./index.styled"
 
 function Title(props: Props): JSX.Element {
     return (
-        <Base {...props} style={[styled({ color: props.color, size: props.size }).title, props.style]}>
+        <Base
+            {...props}
+            style={[styled({ color: props.color, size: props.size, weight: props.weight }).title, props.style]}
+        >
             {props.children}
         </Base>
     )
@@ -13,7 +16,10 @@ function Title(props: Props): JSX.Element {
 
 function Text(props: Props): JSX.Element {
     return (
-        <Base {...props} style={[styled({ color: props.color, size: props.size }).text, props.style]}>
+        <Base
+            {...props}
+            style={[styled({ color: props.color, size: props.size, weight: props.weight }).text, props.style]}
+        >
             {props.children}
         </Base>
     )
