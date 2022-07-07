@@ -1,4 +1,4 @@
-import React from "react"
+import * as React from "react"
 import { View, TouchableOpacity, ViewStyle } from "react-native"
 import { Title } from "../typography"
 import { PRIMARY, WHITE } from "./../../../constants/colors"
